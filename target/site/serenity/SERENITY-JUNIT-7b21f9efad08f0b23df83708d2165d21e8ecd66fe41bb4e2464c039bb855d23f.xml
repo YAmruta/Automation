@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="GoldTests.GoldTest" skipped="0" tests="2" time="30.73" timestamp="2021-02-16 08:22:57"><testcase classname="GoldTests.GoldTest" name="Gold login test"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
-GoldPages.LoginPage.doLogin(LoginPage.java:18)
-GoldSteps.LoginPageSteps.loginAsUser(LoginPageSteps.java:18)
-GoldTests.GoldTest.goldLoginTest(GoldTest.java:25)
-</system-err></testcase><testcase classname="GoldTests.GoldTest" name="Home panel"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
-GoldPages.LoginPage.doLogin(LoginPage.java:18)
-GoldSteps.LoginPageSteps.loginAsUser(LoginPageSteps.java:18)
-GoldTests.GoldTest.homePanel(GoldTest.java:32)
-</system-err></testcase></testsuite>

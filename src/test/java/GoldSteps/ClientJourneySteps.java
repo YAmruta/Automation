@@ -85,10 +85,45 @@ public class ClientJourneySteps {
         clientJourneyPage.verifyPreCompareStatement();
     }
     @Step
-    public void quotationStep(){
-        clientJourneyPage.quotationPanel();
+    public void quotationAVIVA(){
+        clientJourneyPage.quotationPanelAviva();
     }
-
+    @Step
+    public void quotationWPA(){
+        clientJourneyPage.quotationPanelWPA();
+    }
+    @Step
+    public void quotationElite(){
+        clientJourneyPage.quotationPanelElite();
+    }
+    @Step
+    public void quotationBupaByYou(){
+        clientJourneyPage.quotationPanelBupaByYou();
+    }
+    @Step
+    public void quotationVitalityHealth(){
+        clientJourneyPage.quotationPanelVitalityHealth();
+    }
+    @Step
+    public void quotationAXA(){
+        clientJourneyPage.quotationPanelAXA();
+    }
+    @Step
+    public void quotationHOL(){
+        clientJourneyPage.quotationPanelHOL();
+    }
+    @Step
+    public void quotationBupaFund(){
+        clientJourneyPage.quotationPanelBupaFund();
+    }
+    @Step
+    public void quotationPHC(){
+        clientJourneyPage.quotationPanelPHC();
+    }
+    @Step
+    public void quotationExeter(){
+        clientJourneyPage.quotationPanelExeter();
+    }
     @Step
     public void SummaryOfEnrolmentSteps(){
         clientJourneyPage.summaryOfEnrolment();

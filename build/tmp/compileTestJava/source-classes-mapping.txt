@@ -1,0 +1,44 @@
+GoldTests/ClientJourneyTest.java
+ GoldTests.ClientJourneyTest
+GoldSteps/DataPageSteps.java
+ GoldSteps.DataPageSteps
+GoldTests/DataPageTest.java
+ GoldTests.DataPageTest
+GoldPages/HomePage.java
+ GoldPages.HomePage
+GoldPages/DiallerPage.java
+ GoldPages.DiallerPage
+GoldPages/ClientJourneyPage.java
+ GoldPages.ClientJourneyPage
+GoldPages/DataPage.java
+ GoldPages.DataPage
+GoldSteps/TrainingPageSteps.java
+ GoldSteps.TrainingPageSteps
+GoldTests/StaffPageTest.java
+ GoldTests.StaffPageTest
+GoldPages/StaffPage.java
+ GoldPages.StaffPage
+GoldPages/LoginPage.java
+ GoldPages.LoginPage
+GoldTests/BaseTest.java
+ GoldTests.BaseTest
+GoldTests/TrainingPagetest.java
+ GoldTests.TrainingPagetest
+GoldPages/UtilClass.java
+ GoldPages.UtilClass
+GoldSteps/ClientJourneySteps.java
+ GoldSteps.ClientJourneySteps
+GoldTests/DiallerPageTest.java
+ GoldTests.DiallerPageTest
+GoldSteps/StaffPageSteps.java
+ GoldSteps.StaffPageSteps
+GoldSteps/HomePageSteps.java
+ GoldSteps.HomePageSteps
+GoldSteps/LoginPageSteps.java
+ GoldSteps.LoginPageSteps
+GoldPages/TrainingPage.java
+ GoldPages.TrainingPage
+GoldSteps/DiallerPageSteps.java
+ GoldSteps.DiallerPageSteps
+GoldTests/GoldTest.java
+ GoldTests.GoldTest

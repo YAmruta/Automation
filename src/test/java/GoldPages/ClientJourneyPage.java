@@ -157,7 +157,7 @@ public class ClientJourneyPage extends PageObject {
     public void budgetAndStartDatePage() {
 
         $("[name='DN_policy_month_afford']").clear();
-        $("[name='DN_policy_month_afford']").sendKeys("180");
+        $("[name='DN_policy_month_afford']").sendKeys("250");
         $("//button[. = 'Confirmed Budget']").click();
         $("//button[. = 'save and progress']").click();
     }
@@ -185,9 +185,142 @@ public class ClientJourneyPage extends PageObject {
 
     }
 
-    public void quotationPanel() {
+    public void quotationPanelAviva() {
         $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
         $("//td[1]/a[3]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelWPA() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[1]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+     /* //  $("//input[@value='save changes']").click();
+        $("//div[. = '      GP']").click();
+        $("[name='existing_see_medical_reports']").click();
+        $("//input[@value='save changes']").click();
+      //  $("//input[@value='      summary']").click();*/
+        $("//input[@id='savewpa']","+user").click();
+
+    }
+    public void quotationPanelElite() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[2]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelBupaByYou() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[4]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelVitalityHealth() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[5]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelAXA() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[5]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelHOL() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[6]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelBupaFund() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[7]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelPHC() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[8]/img").click();
+        getDriver().switchTo().frame("quote_iframe");
+        //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
+        // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
+
+        // $("//*[@id=\"SelectList\"]/td[3]/a/div").click();
+
+        $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[1]/a", "+user").click();
+        // $("//table[10]/tbody/tr/td[1]/table/tbody/tr/td[2]/a","+user").click();
+        getDriver().switchTo().defaultContent();
+        $("//input[@name='submitbutton']", "+user").click();
+    }
+    public void quotationPanelExeter() {
+        $("//img[@title='Flexible Health (2011-10) by (WPA)']").click();
+        $("//td[1]/a[9]/img").click();
         getDriver().switchTo().frame("quote_iframe");
         //  $(" #SelectList > td.button_ijb_on.new-button-row > a > div").click();
         // $("#SelectList > td.button_ijb_on_of.new-button-row > a > div").click();
@@ -248,7 +381,7 @@ public class ClientJourneyPage extends PageObject {
     public void optOutPage(){
         $("//input[@value='      opt out']").click();
         $("//tr[1]/td[2]/span/input[2]").click();
-        $("[name='opt_notes']").sendKeys(UtilClass.generateRandomString(75));
+        $("[name='opt_notes']").sendKeys(UtilClass.generateRandomString(175));
         $("//button[. = 'save preferences']").click();
       //  $("//button[. = '#no_marketing']").click();
         $("//tr[2]//button[. = 'save']").click();
