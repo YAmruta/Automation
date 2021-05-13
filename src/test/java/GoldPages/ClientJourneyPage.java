@@ -53,7 +53,6 @@ public class ClientJourneyPage extends PageObject {
         $("//td[4]//button[. = 'save']").click();
         $("//input[@value='      contact']").click();
 
-        //tr[@id='rand_id_2828_4363']//button[@value='save'][normalize-space()='save']
     }
 
     public void someoneAnswered() {
