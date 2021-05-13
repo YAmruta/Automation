@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GoldTests.ClientJourneyTest" skipped="0" tests="1" time="27.03" timestamp="2021-02-16 09:22:27"><testcase classname="GoldTests.ClientJourneyTest" name="Client journey test"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
-GoldPages.LoginPage.doLogin(LoginPage.java:18)
-GoldSteps.LoginPageSteps.loginAsUser(LoginPageSteps.java:18)
-GoldTests.ClientJourneyTest.setup(ClientJourneyTest.java:28)
-</system-err></testcase></testsuite>

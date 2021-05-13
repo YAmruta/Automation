@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GoldTests.ClientJourneyTest" skipped="0" tests="1" time="11.17" timestamp="2021-02-19 09:52:16"><testcase classname="GoldTests.ClientJourneyTest" name="Client switch journey"><failure type="java.lang.AssertionError"/><system-err>null
-GoldSteps.LoginPageSteps.loggedInAs(LoginPageSteps.java:27)
-GoldTests.ClientJourneyTest.setup(ClientJourneyTest.java:29)
-</system-err></testcase></testsuite>
